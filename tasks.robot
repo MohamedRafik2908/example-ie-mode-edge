@@ -15,7 +15,7 @@ Open Default Edge In IE Mode
     [Documentation]    Opens Edge in IE mode with default configuration and automatic
     ...    webdriver management. (this might be sufficient for you)
 
-    Open Available Browser    ${URL}    browser_selection=ie
+    Open Browser    ${URL}    browser_selection=ie
 
 
 Open Custom Edge In IE Mode
@@ -27,7 +27,7 @@ Open Custom Edge In IE Mode
     ...    arguments    ${ie_args}
     ...    binary_location    ${BROWSER_PATH}
 
-    Open Available Browser    ${URL}    browser_selection=ie    options=${options}
+    Open Browser    ${URL}    browser_selection=ie    options=${options}
 
 
 Open Custom Edge In IE Mode With Capabilities
